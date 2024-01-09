@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptBlockAst>
+  <Attributes />
+  <UsingStatements />
+  <NamedBlockAst>
+    <Statements>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Youtube-Dl auto best content downloader and merger</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Script by Ayushmaan Karmokar</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Enter Youtube [URL] below eg. https://www.youtube.com/watch?v=rprhfOBVgf8</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Entering Nothing will run the default youtube-link</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <AssignmentStatementAst Operator="Equals">
+        <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+        <PipelineAst>
+          <PipelineElements>
+            <CommandAst>
+              <CommandElements>
+                <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Read-Host</StringConstantExpressionAst>
+              </CommandElements>
+              <Redirections />
+            </CommandAst>
+          </PipelineElements>
+        </PipelineAst>
+      </AssignmentStatementAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Hey! What kind of download do you want? ((BEST or CUSTOM or MUSIC))</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Please input (exact) keyword! ((BEST or CUSTOM or MUSIC))</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <AssignmentStatementAst Operator="Equals">
+        <VariableExpressionAst VariablePath="setting" StaticType="System.Object" />
+        <PipelineAst>
+          <PipelineElements>
+            <CommandAst>
+              <CommandElements>
+                <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Read-Host</StringConstantExpressionAst>
+              </CommandElements>
+              <Redirections />
+            </CommandAst>
+          </PipelineElements>
+        </PipelineAst>
+      </AssignmentStatementAst>
+      <IfStatementAst>
+        <PipelineAst>
+          <PipelineElements>
+            <CommandExpressionAst>
+              <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                <VariableExpressionAst VariablePath="setting" StaticType="System.Object" />
+                <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">BEST</StringConstantExpressionAst>
+              </BinaryExpressionAst>
+              <Redirections />
+            </CommandExpressionAst>
+          </PipelineElements>
+        </PipelineAst>
+        <StatementBlockAst>
+          <Statements>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">FOR BEST</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <IfStatementAst>
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandExpressionAst>
+                    <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                      <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                      <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string"></StringConstantExpressionAst>
+                    </BinaryExpressionAst>
+                    <Redirections />
+                  </CommandExpressionAst>
+                </PipelineElements>
+              </PipelineAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="f" />
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">bestvideo+bestaudio/best</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">https://www.youtube.com/watch?v=rprhfOBVgf8</StringConstantExpressionAst>
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="f" />
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">bestvideo+bestaudio/best</StringConstantExpressionAst>
+                          <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+            </IfStatementAst>
+          </Statements>
+        </StatementBlockAst>
+        <PipelineAst>
+          <PipelineElements>
+            <CommandExpressionAst>
+              <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                <VariableExpressionAst VariablePath="setting" StaticType="System.Object" />
+                <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">CUSTOM</StringConstantExpressionAst>
+              </BinaryExpressionAst>
+              <Redirections />
+            </CommandExpressionAst>
+          </PipelineElements>
+        </PipelineAst>
+        <StatementBlockAst>
+          <Statements>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">FOR CUSTOM</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Fetching Available Download Options, see below.</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <IfStatementAst>
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandExpressionAst>
+                    <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                      <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                      <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string"></StringConstantExpressionAst>
+                    </BinaryExpressionAst>
+                    <Redirections />
+                  </CommandExpressionAst>
+                </PipelineElements>
+              </PipelineAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="F" />
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">https://www.youtube.com/watch?v=rprhfOBVgf8</StringConstantExpressionAst>
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="F" />
+                          <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+            </IfStatementAst>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Enter (number) for video codec. eg 307</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <AssignmentStatementAst Operator="Equals">
+              <VariableExpressionAst VariablePath="vido" StaticType="System.Object" />
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandAst>
+                    <CommandElements>
+                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Read-Host</StringConstantExpressionAst>
+                    </CommandElements>
+                    <Redirections />
+                  </CommandAst>
+                </PipelineElements>
+              </PipelineAst>
+            </AssignmentStatementAst>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Enter (number) for audio codec. eg 107</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <AssignmentStatementAst Operator="Equals">
+              <VariableExpressionAst VariablePath="audo" StaticType="System.Object" />
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandAst>
+                    <CommandElements>
+                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Read-Host</StringConstantExpressionAst>
+                    </CommandElements>
+                    <Redirections />
+                  </CommandAst>
+                </PipelineElements>
+              </PipelineAst>
+            </AssignmentStatementAst>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string"></StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Data Recieved! Downloading Data and Making you your video!</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <IfStatementAst>
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandExpressionAst>
+                    <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                      <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                      <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string"></StringConstantExpressionAst>
+                    </BinaryExpressionAst>
+                    <Redirections />
+                  </CommandExpressionAst>
+                </PipelineElements>
+              </PipelineAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="f" />
+                          <ExpandableStringExpressionAst StringConstantType="BareWord" StaticType="string">$vido+$audo<NestedExpressions><VariableExpressionAst VariablePath="vido" StaticType="System.Object" /><VariableExpressionAst VariablePath="audo" StaticType="System.Object" /></NestedExpressions></ExpandableStringExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">https://www.youtube.com/watch?v=rprhfOBVgf8</StringConstantExpressionAst>
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="f" />
+                          <ExpandableStringExpressionAst StringConstantType="BareWord" StaticType="string">$vido+$audo<NestedExpressions><VariableExpressionAst VariablePath="vido" StaticType="System.Object" /><VariableExpressionAst VariablePath="audo" StaticType="System.Object" /></NestedExpressions></ExpandableStringExpressionAst>
+                          <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+            </IfStatementAst>
+          </Statements>
+        </StatementBlockAst>
+        <PipelineAst>
+          <PipelineElements>
+            <CommandExpressionAst>
+              <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                <VariableExpressionAst VariablePath="setting" StaticType="System.Object" />
+                <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">MUSIC</StringConstantExpressionAst>
+              </BinaryExpressionAst>
+              <Redirections />
+            </CommandExpressionAst>
+          </PipelineElements>
+        </PipelineAst>
+        <StatementBlockAst>
+          <Statements>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write-Host</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Fetching Available Download Options, see below.</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+            <IfStatementAst>
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandExpressionAst>
+                    <BinaryExpressionAst Operator="Ieq" StaticType="System.Object">
+                      <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                      <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string"></StringConstantExpressionAst>
+                    </BinaryExpressionAst>
+                    <Redirections />
+                  </CommandExpressionAst>
+                </PipelineElements>
+              </PipelineAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="f" />
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">bestaudio</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">https://www.youtube.com/watch?v=rprhfOBVgf8</StringConstantExpressionAst>
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+              <StatementBlockAst>
+                <Statements>
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">./youtube-dl.exe</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">--ffmpeg-location</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ffmpeg.exe</StringConstantExpressionAst>
+                          <CommandParameterAst ParameterName="f" />
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">bestaudio</StringConstantExpressionAst>
+                          <VariableExpressionAst VariablePath="link" StaticType="System.Object" />
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </Statements>
+              </StatementBlockAst>
+            </IfStatementAst>
+          </Statements>
+        </StatementBlockAst>
+        <StatementBlockAst>
+          <Statements>
+            <PipelineAst>
+              <PipelineElements>
+                <CommandAst>
+                  <CommandElements>
+                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Write</StringConstantExpressionAst>
+                    <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">NONSENSE-COMMANDS, ENDING PROGRAM</StringConstantExpressionAst>
+                  </CommandElements>
+                  <Redirections />
+                </CommandAst>
+              </PipelineElements>
+            </PipelineAst>
+          </Statements>
+        </StatementBlockAst>
+      </IfStatementAst>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Read-host</StringConstantExpressionAst>
+              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Enter to Exitâ€
+</StringConstantExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+    </Statements>
+  </NamedBlockAst>
+</ScriptBlockAst>
