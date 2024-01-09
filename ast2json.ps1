@@ -8,6 +8,8 @@
     The path to the Powershell script. ABSOLUTE
 .PARAMETER ast
     The path to the XML file. ABSOLUTE
+.PARAMETER jsonf
+    The path to the json file. ABSOLUTE
 .EXAMPLE
     C:\PS>
     <Description of example>
@@ -30,6 +32,7 @@ param (
     [Parameter(Mandatory=$true)]
     [System.IO.FileInfo] $ps1,
     [string] $ast,
+    [string] $jsonf,
     [switch] $help
 )
 
@@ -153,7 +156,8 @@ function ConvertToAST($input_filename, $output_filename)
         $xmlWriter.Close()
     }
 
-    [xml[]] (Get-Content -Raw $output_filename) | ConvertFrom-Xml | ConvertTo-Json -depth 100 > "output.json"
+    #depth can be setted by the previous xml writer
+    [xml[]] (Get-Content -Raw $output_filename) | ConvertFrom-Xml | ConvertTo-Json -depth 100 > $jsonf
 
     Write-Host $global:n_nodes nodes parsed
     Write-Host (Get-Item $output_filename).length bytes written
